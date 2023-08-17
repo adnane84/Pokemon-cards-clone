@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./base.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./responsive.css" />
+  <script src="https://kit.fontawesome.com/09f34e56b7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+    <!--navbar-->
+    <nav class="navbar nav" id="topNav">
+      <div class="container">
+        <button class="nav-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+          <span>&#9776</span>
+        </button>
+        <div class="pokemonIcon-wrapper">
+          <img src="https://m.media-amazon.com/images/M/MV5BNDcwZDc2NTEtMzU0Ni00YTQyLWIyYTQtNTI3YjM0MzhmMmI4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg" alt="pokemonIcon">
+        </div>
+        <ul class="navbar-nav">
+          <li><a href="#" class='btn btn-primary btn-right'>
+            <img src="https://www.pngitem.com/pimgs/m/2-25193_pokemon-ball-transparent-background-transparent-background-pokeball-png.png" alt="favorites">
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--pokemon card-->
+    <div class="container">
+      <div class="title">
+        <h2 class='sub-title'>Gotta Catch ‘Em All!</h2>
+      <div class="sortBtn-wrapper">
+        <a href="#" class='btn btn-primary sort' data-page='collection'>SORT BY NAME(A-Z)</a>
+        <a href="#" class='btn btn-primary sort-reverse' data-page='collection'>SORT BY NAME(Z-A)</a>
+      </div>
+      </div>
+      <h2 class="pokemon-display"></h2>
+      <div class="collection-card-container card-container"></div>
+    </div>
+    <!--favorite-->
+    <div class="favorite" data-animation='zoomInOut'>
+      <div class="container">
+        <header class="favorite-header">
+          <h3>FAVORITE PAGE</h3>
+          <i class="fas fa-times" data-close></i>
+        </header>
+        <div class="btnWarpper">
+            <a href="#" class='btn btn-primary sort' data-page='favorite'>SORT BY NAME(A-Z)</a>
+            <a href="#" class='btn btn-primary sort-reverse' data-page='favorite'>SORT BY NAME(Z-A)</a>
+          </div>
+      </div>
+      <div class="container">
+        <div class="favorite-card-container card-container"></div>
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
