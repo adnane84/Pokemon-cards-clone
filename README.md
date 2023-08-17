@@ -11,7 +11,9 @@ It fetches data from the Pokémon API and presents it in a user-friendly manner.
 
 You can view the live demo of the PokéDex App [here](https://example.com/pokedex-demo).
 
-![PokéDex App Demo](demo.gif)
+ ![pokemonCards](https://github.com/adnane84/Pokemon-cards-clone/assets/92402125/17f3c676-f164-4971-b8b6-9e7b1b6d0189)
+
+
 
 ## Features
 
