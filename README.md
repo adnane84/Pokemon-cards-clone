@@ -45,3 +45,9 @@ Usage
     Use the search feature to find specific Pokémon.
     Click the heart icon to mark a Pokémon as a favorite.
     Click the "Favorites" icon in the navigation to view your favorite Pokémon.
+
+
+
+
+    ![pokemonCards](https://github.com/adnane84/Pokemon-cards-clone/assets/92402125/17f3c676-f164-4971-b8b6-9e7b1b6d0189)
+
